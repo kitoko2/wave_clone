@@ -1,0 +1,42 @@
+name: wave_clone
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  pinput: ^2.2.12
+  qr_code_scanner: ^1.0.1
+  flutter_local_authentication: ^0.0.3
+  url_launcher: ^6.1.5
+  share_plus: ^4.1.0
+  shared_preferences: ^2.0.15
+  numeric_keyboard: ^1.1.0
+  fluttertoast: ^8.0.9
+  contacts_service: ^0.6.3
+  permission_handler: ^10.0.0
+  flutter_animate: ^1.0.0
+  sized_context: ^1.0.0+1
+  flextras: ^0.0.2
+  extra_alignments: ^1.0.0+1
+  gap: ^2.0.0
+  get_it: ^7.2.0
+  get_it_mixin: ^3.1.4
+  rnd: ^0.2.0
+  simple_rich_text: ^2.0.49
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/logos/
+  uses-material-design: true
+
